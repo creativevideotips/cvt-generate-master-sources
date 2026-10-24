@@ -10,8 +10,8 @@ the GNU GPL v3 or later (see [License](#license)).
 
 ![The master sources timeline after Shot Namer](images/cvt_generate_master_sources_master_timeline.webp)
 
-[Download the PDF guide](guide/cvt_generate_master_sources_README_v1.01.pdf)
-(v1.01, for script v2.08). The same guide follows.
+[Download the PDF guide](guide/cvt_generate_master_sources_README_v1.02.pdf)
+(v1.02). The same guide follows.
 
 ## Overview
 
@@ -28,7 +28,7 @@ In the master:
 - Every shot starts at frame **1001**.
 - Segments that were composited together in an edit (stacked on different tracks) sit stacked at the same spot, so they read as one shot. The tracks are named **L1**, **L2** and so on.
 
-The script reads video only. It needs **DaVinci Resolve Studio**, because it uses the scripting API. It was written and tested on Resolve Studio 21
+The script reads video only. It needs **DaVinci Resolve Studio**, because it uses the scripting API. It was tested in DaVinci Resolve 21.
 
 ## Install
 
