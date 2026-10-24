@@ -28,7 +28,7 @@ In the master:
 - Every shot starts at frame **1001**.
 - Segments that were composited together in an edit (stacked on different tracks) sit stacked at the same spot, so they read as one shot. The tracks are named **L1**, **L2** and so on.
 
-The script reads video only. It needs **DaVinci Resolve Studio**, because it uses the scripting API. It was written and tested on Resolve Studio 21.1.2.
+The script reads video only. It needs **DaVinci Resolve Studio**, because it uses the scripting API. It was written and tested on Resolve Studio 21
 
 ## Install
 
